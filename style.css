@@ -1,0 +1,47 @@
+body {
+    background: url("./images/background-image.jpg");
+
+    margin: 0;
+}
+
+@font-face {
+    font-family: NorseBold;
+    src: url("./fonts/Norse-Bold.otf");
+}
+
+.left-div {
+   background-color: black;
+   width: 40%;
+   height: 10em;
+   margin-top: 190px;  
+   opacity: 0.6; 
+   float: left;
+   font-family: NorseBold;
+   color: white;
+}
+
+.logo-div {
+    display: flex;
+    margin-top: -25px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    opacity: 1.0;
+}
+
+.logo-div h1 {
+    font-size: 100px;
+}
+
+.logo-div img {
+    width: 100px;
+    margin-top: -20px;
+}
+
+.form-div {
+    background-color: white;
+    width: 60%;
+    height: 100em;
+    float: right;
+    margin: 0;
+}
